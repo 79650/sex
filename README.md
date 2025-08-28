@@ -19,15 +19,6 @@ Fast-Flags Guide
 > [!CAUTION]
 > **Using FastFlags should be treated as operating in a kind of “superuser mode.” Superusers have the ability to break things: if you enable the wrong flag, you might cause Roblox Studio or the client to malfunction. In such cases, it wouldn’t usually count as a valid bug report unless you are certain that it’s connected to an upcoming feature and Roblox is unaware of the issue.**
 
-# Will using this get me banned?
-**Short answer: No, it won’t. We are 100% sure of it, and even [Roblox Staff have confirmed that fact.](https://devforum.roblox.com/t/welcoming-byfron-to-roblox/2018233/693?u=xtremeguy2256 ) Bootstrappers are not exploit software and have nothing to do with exploiting.**
-> **But if you are still using abusive FFlags (such as Noclip, JumpBoost, or Visual Glitches), people can detect this and report you, which may result in a ban.**
-
-# What sites/bot are available for finding Fast-Flags?</h2>
-**[FVariables](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt) ~ A sorted list of fast variables, which are used by Roblox to toggle changes to the engine remotely on multiple platforms without having to redeploy the client**
-
-**[Flemish FastFlags](https://discord.gg/UHfwyxjeya) ~ This bot brings together all the features in one place. Instead of using separate tools like FVariables, you can access and use every FastFlag-related function through simple commands**
-
 ---
 <h2>Roblox Client Debug Menu Keybinds</h2>
 
