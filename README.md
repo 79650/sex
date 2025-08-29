@@ -58,7 +58,22 @@ Fast-Flags Guide
 > 4. Having overlays can actually harm FPS, so yes. `FFlagDebugDisplayFPS` can actually reduce FPS.
 > 5. Disabling **all** `telemetry`, will not do anything in terms of performance. It will also cause visual and other bugs.
 ---
+<details>
+<summary><h2>Fast-Flags Bits</h2></summary>
 
+**A "bit" is how much data can be processed. For example, 64 bit will process more data than a 32 bit.**
+
+**There is only 3 types of bits in fastflags**
+
+> **32 Bit - Maximum value is 2,147,483,647**
+>
+> **16 Bit - Maximum value is 32,767**
+>
+> **8 Bit - Maximum value is 255.**
+
+**These maximum values all can be checked with flagstate. 8 bit fastflags are generally useless and have no use.**
+
+---
 <details>
 <summary><h2>Fast-Flags Headers</h2></summary>
 
