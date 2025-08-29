@@ -1,12 +1,14 @@
 
 <p align="center">
 <img src="https://cdn3.emoji.gg/emojis/602959-boobs.gif" alt="arobsite" height="200">
-                                                                                 </p>
+                                                                                                                                                                                                                                                                               </p>
 <div align="center">
-                <h1>
- Fast-Flags Guide
-               </h1>
-              </div>
+                                                                                                                                                                                                                                                                               <h1>
+Fast-Flags Guide
+
+Made by <a href="https://discord.com/users/1254472513199673347">Scroom</a>,<a href="https://discord.com/users/1104189426374033519">Onion</a>,<a href="https://discord.com/users/1344953953095258144">koain</a>,<a href="https://discord.com/users/1395141912339677186">arobsite</a>
+                                                                                                                                                                                                                                                                               </h1>
+                                                                                                                                                                                                                                                                              </div>
 
 # What are Fast-Flags?
 **FastFlags (often shortened as FFlags) are internal toggleable options that control whether certain parts of Roblox’s source code should be executed or not.**
