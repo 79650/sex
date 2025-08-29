@@ -19,6 +19,7 @@ Fast-Flags Guide
 > [!CAUTION]
 > **Using FastFlags should be treated as operating in a kind of “superuser mode.” Superusers have the ability to break things: if you enable the wrong flag, you might cause Roblox Studio or the client to malfunction. In such cases, it wouldn’t usually count as a valid bug report unless you are certain that it’s connected to an upcoming feature and Roblox is unaware of the issue.**
 
+---
 # Will using this get me banned?
 
 **Short answer: No, it won’t. We are 100% sure of it, and even [Roblox Staff have confirmed that fact.](https://devforum.roblox.com/t/welcoming-byfron-to-roblox/2018233/693?u=xtremeguy2256 ) Bootstrappers are not exploit software and have nothing to do with exploiting.**
@@ -37,8 +38,9 @@ Fast-Flags Guide
 | *Physics stats*        | `Shift + F4`             | `Fn + Shift + F4`         | None                                          |
 | *Summary stats*        | `Shift + F5`             | `Fn + Shift + F5`         | None                                          |
 
+---
 <details>
-<summary><h2> FastFlags Documentation</h2></summary>
+<summary><h2><strong>FastFlags Documentation</strong></h2></summary>
 
 <h2>What sites/bot are available for finding Fast-Flags?</h2>
 
@@ -46,6 +48,7 @@ Fast-Flags Guide
 
 **[Flemish FastFlags](https://discord.gg/UHfwyxjeya) ~ This bot brings together all the features in one place. Instead of using separate tools like FVariables, you can access and use every FastFlag-related function through simple commands**
 
+---
 <details>
 <summary><h2>Fast-Flags Tips-Explanations</h2></summary>
 
@@ -57,8 +60,21 @@ Fast-Flags Guide
 ---
 
 <details>
-<summary><h2>Fast-Flags Configuration Prefixes</h2></summary>
+<summary><h2>Fast-Flags Headers</h2></summary>
 
+> 1. `_IXP` ~ Internet Exchange Point. Used in IP networking, allowing Internet Service Providers (ISPs) to exchange traffic between their networks.
+> 2. `_Staged` ~ A replica of a production environment, often used for testing or staging purposes.
+> 3. `_PlaceFilter` ~ A filter that restricts FastFlags to a specific experience (place). Useful for saving time when switching between different games.
+> 4. `_DataCenterFilter` ~ Similar to _PlaceFilter, but applies to datacenter IDs. Mainly useful for RakNet-related FastFlags.
+```
+{ "DFFlagDebugPauseVoxelizer_PlaceFilter": "True;GameID",
+"DFIntConnectionMTUSize_DataCenterFilter": "1472;DataCenterID" }
+```
+---
+<details>
+<summary><h2><strong>Fast-Flags Configuration Prefixes</strong></h2></summary>
+
+---
 ### `DFFlag`
 > **Dynamic Fast Flag**
 > - **Type:** Boolean (`true/false`)
@@ -103,135 +119,165 @@ Fast-Flags Guide
 > **Synchronized Fast Flag**
 > **Type:** Boolean (`true/false`) or Integer (`-2147483648` to `2147483647`)
 > **Description:** A synchronized flag variable that is loaded by the server and sent to the client. It ensures that the flag’s state is consistent across different clients. The flag's value is forced by the server and cannot be changed by the client (you).
-
-<details>
 ---
+<details>
+<summary><h2><strong>Fast-Flags Acronyms</strong></h2></summary>
 
-# Acronyms
-
-- **Mainly used in fastflags.**
-- *Acronyms with a question mark mean they may not be correct.*
-
-```md
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"A" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Avg: Average
-ACK: Acknowledge
-Async: Asynchronous
-Arg/Args: Argument(s)
+---
+> # "A" Letter Acronym FastFlags
+---
+```
 AR: Augmented Reality
-PC: Personal Computer
-ABR: Adaptive Bitrate
-Agg: Aggregate/Aggregation
-ACS: Access Control System
 AI: Artificial Intelligence
-Aniso: Anisotropic Filtering
+
+Avg: Average
+Agg: Aggregate
+ACK: Acknowledge
+ABR: Adaptive Bitrate
+ACS: Access Control System
 AUM: Assets under management
-AABB: Axis-Aligned Bounding Box
-ACE: Animation Curve/Clip Editor
-Auth: Authenticate/Authentication
+ACE: Animation Curve-Clip Editor
+ACR: Asset Content-Cache Resolver
 AES: Advanced Encryption Standard
 AMC: Automated Moderation Capture
+ACP: Accelerated Collision Pipeline
 API: Application Programming Interface
+ATC: Asset Transaction Cache / Automatic TXT Capture
+
+Auth: Authentication
+ASAN: AddressSanitizer
+ACCb: Access Control Callback
+AABB: Axis-Aligned Bounding Box
 APGS: Asynchronous Projected Gauss-Seidel
 ASTC: Adaptive Scalable Texture Compression
-ACP: Accelerated/Adaptive Collision Pipeline
-AICO: Artificial Intelligence Code Completion/Asist
-ATC: Asset Transaction Cache / Automatic Text Capture
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"B" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+AICO: Artificial Intelligence Code Completion-Assistant
+
+Async: Asynchronous
+Arg-Args: Argument(s)
+Aniso: Anisotropic Filtering
+```
+
+---
+> # "B" Letter Acronym FastFlags
+---
+```
 BW: Bandwidth
-BG: Background
-BP: Blueprint (?)
+BG: Backgroun
 BC: Block Compression
-BPS: Bytes/Bits Per Seconds
 BVH: Bounding Volume Hierarchy
-BSP: Binary Space Partitioning
-BTID: Browser Tracking/Token ID
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"C" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+BPS: Bytes-Bits Per Seconds
+BFS: Breadth-First Search
+BTID: Browser Tracking-Token ID
+```
+---
+> # "C" Letter Acronym FastFlags
+---
+```
 CN: China
-Cull: Culling
-CPP: Cycle Plus +
+CD: Compositor Debugger
+
 CTA: Call to Action
+CPP: C++ [C Plus Plus]
 CFM: Custom Fonts Module
-CFrame: Coordinater Frame
-Calc: Calculation/Calculate
-CPU: Central Processing Unit
-CDN: Content Delivery Network
-CCD: Cyclic Coordinate Descent
+CLI: Client-Command Line Interface
 CSG: Constructive Solid Geometry
-CLI: Client / Command Line Interface
+CCD: Cyclic Coordinate Descent
+CDN: Content Delivery Network
+CJK: Chinese-Japanese-Korean
+CPU: Central Processing Unit
+CSV: Comma-Separated Values
+CDC: Compressed Data Codec
 CFL: Courant–Friedrichs–Lewy Condition
-CD: Carrier Detect/Composition Detection
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"D" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+
+Cull: Culling
+CFrame: Coordinate Frame
+Calc: Calculation/Calculate
+```
+---
+> # "D" Letter Acronym FastFlags
+---
+```
+DB: Database
 DC: Data Carrier
+Diff: Difference
 DPI: Dots per inch
 DMP: DataModelPatch
 DOF: Depth of Field
 DNS: Domain Name System
-DB: Data Table / Database
-Diff: Different / Diffraction
+DSP: Digital Signal Processing
 DCR: Developer Console Rewrite
 DRM: Digital Rights Management
 DRS: Dynamic Resolution Scaling
 DXT: DIrectX Texture Compression (S3TC)
-Diq: Data Ingestion Quota / Delay-in-Queue
-DCD: Data Carrier Detection/Decomposition / Dynamic CSG Decomposition
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"E" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Exec: Execute
+Diq: Data Ingestion Quota / Delay-In-Queue
+DCD: Data Carrier Detection-Decomposition / Dynamic CSG Decomposition
+```
+---
+> # "E" Letter Acronym FastFlags
+---
+```
 EXP: Experience
-Email: Electronic Mail
 ELF: Event Logging Framework
+
+Exec: Execute
+Email: Electronic Mail
 ESEI: Event Stream Edge Ingestion
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"F" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Func: Function
-Freq: Frequency
+```
+---
+> # "F" Letter Acronym FastFlags
+---
+```
 FC: Fast Cluster
 FV: FastVariables
-FIB: Future Is Bright
 FK: Forward Kinematics
+
+FIB: Future Is Bright
 FPS: Frames Per Second
 FRM: Frame Rate Manager
+FSM: Froxel-Forward Shading-Shadow Manager / Finite State Machine
+
+Func: Function
+Freq: Frequency
 FTUX: First Time User Experience
-FSM: F: Froxel/Forward S: Shading-Shadow M: Manager-Method / Finite State Machine
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"G" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "G" Letter Acronym FastFlags
+---
+```
 GB: Gigabyte
-GLC: Gui Layout Container
-gIFT: GL Transmission Format
-GPU: Graphics Processing Unit
-GUAC: Global User App Configuration
 GC: Garbage Collection / Game Content
+
+GLC: Gui Layout Container
+GPU: Graphics Processing Unit
 Gma: Game Manager API / Google Mobile Ads
 GJK: Gilbert–Johnson–Keerthi Distance Algorithm
+
+glFT: GL Transmission Format
+GUAC: Global User App Configuration
 GUID: UUID - Globally / Universally Unique Identifier
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"H" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-HDR: High Dynamic Range
+```
+---
+> # "H" Letter Acronym FastFlags
+---
+```
 HSR: Hidden Surface Removal
+HDR: High Dynamic Range
+
 HTTP: Hypertext Transfer Protocol
 Hz/Hertz: Measurement For Frequency
 HTTPS: Hypertext Transfer Protocol Secure
 HACD: Hierarchical Approximate Convex Decomposition
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"I" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-IAP: In-App Purchase
-Iter(s): Iteration(s)
+```
+---
+> # "I" Letter Acronym FastFlags
+---
+```
 IP: Internet Protocol
+Iter(s): Iteration(s)
 Ik: Inverse Kinematics
+IG: Intel-Integrated-Immediate Graphics
+
+IAP: In-App Purchase
 Inc: Incoming / Income
 IAS: Input Action System
 ISA: Instance Class Name
@@ -239,161 +285,207 @@ IBL: Image-Based Lighting
 IXP: Internet Exchange Point
 iOS: iPhone Operating System
 ISR: Interrupt Service Routine
-IG: Intel-Integrated-Immediate Graphics
 IDE: Integrated Development Environment
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-J" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-JDI: Json Delta Interchange
-JIT: Just-in-Time (Compilation)
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"K" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "K" Letter Acronym FastFlags
+---
+```
 KB: Kilobytes
-KTX: Khronos Texture
-KFS: Key Frame Sequence
+KD: K-Dimensional
 KBpS: Kilobytes Per Second
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"L" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+
+KFS: Key Frame Sequence
+KTX: Khronos Texture
+```
+---
+> # "L" Letter Acronym FastFlags
+---
+```
+LT: Live Telemetry
+LMKD: Low Memory Killer Daemon
+
 LOD: Level of Detail
+LSC: Lua Script Cache
 LRU: Least Recently Used
 LSP: Language Server Protocol
-LMKD: Low Memory Killer Daemon
-LMS: Latency Measurement Service
+LMS: Log-Latency Measurement Service
 LDL: Lower Diagonal Transpose [L: lower triangular matrix | D: diagonal matrix | L: transpose of L]
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"M" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "M" Letter Acronym FastFlags
+---
+```
+MB: Megabyte
+ML: Machine Learning
+
 Max: Maximum
 Msg: Message
-MB: Megabyte
 MIB: Mebibyte
-Multi: Multiple
-ML: Machine Learning
 Min: Minutes-Minimum
-Mutex: Mutual Exclusion
 MPS: Market Place Service
 MRS: Message Routing Service
-MS/MSec/Millis: Milliseconds
 MTU: Maximum Transition Unit
-MMAP: Memory-Mapped File I/O
 MRF: Multiple Replication Foci
-MSAA: Multisampling Antialiasing
-MacOS: Macintosh Operating System
-MRD: Mega Replicator Data-Dictionary
 MFT: Metrics-Memory-Monitoring Fault Telemetry
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"N" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Num: Number
-NS: NextStep
-NAT: Network Address Translation
-NOU: Number of Units/Network Ownership
-NCNN: Neural Network Inference Framework
+MRD: Metrics-Monitoring Report Data / Mega Replicator Data-Dictionary
+
+Mutex: Mutual Exclusion
+MMAP: Memory-Mapped File I/O
+MS/MSec/Millis: Milliseconds
+MacOS: Macintosh Operating System
+MSAA: Multisampling Antialiasing
+```
+---
+> # "N" Letter Acronym FastFlags
+---
+```
+NS: Native Service / N Seconds
 NLSM: Network Layer Statistics-State Monitor
-NII: Natural-Language Input Inspection-Inference / Network Interpolation-Integration
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"O" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+NCNN: Neural Network Inference Framework
+
+Num: Number
+NAT: Network Address Translation
+NOU: Number of Units-Network Ownership
+NII: Network Interpolation-Integration / Natural-Language Input Inspection-Inference
+```
+---
+> # "O" Letter Acronym FastFlags
+---
+```
 OTA: Over-the-Air
 OOM: Out Of Memory
 OS: Operating System
 OOP: Object Oriented Programming
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"P" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Pkt:  Packet
+```
+---
+> # "P" Letter Acronym FastFlags
+---
+```
+PC: Personal Computer
+PD: Physics Data [Proportional-Derivative]
+
+Pkt: Packet
+Ptr: Pointer
 Pct: Percent
 Par: Particle
+PPJ: Price Per Job (?)
+POC: Proof of Concept
+PDP: Product Detail Page
+PPP: Per-Particle Physics
+PGS: Projected Gauss-Seidel
+PBR: Physically Based Rendering
+PMD: Packet Metadata Decoder / Part-Mesh Data
+PVS: Potentially Visible Sets / Position–Velocity Solver
+
 Poly: Polygon
 Prio: Priority
 Param: Parameter
 Perf: Performance
-PC: Personal Computer
-PPJ: Price Per Job (?)
-PDP: Product Detail Page
 Prot: Protocol-Protection
-PGS: Projected Gauss-Seidel
-PBR: Physically Based Rendering
 PCGDK: PC Gaming Development Kit
-PD: Physics Data / Proportional-Derivative
-PVS: Potentially Visible Sets / Position–Velocity Solver
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"R" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "R" Letter Acronym FastFlags
+---
+```
+Rx: Receive
+RN: Rotation Number
+Roact: Rodux-Roblox UI Frameworks
+
 Rbx: Roblox
 Rcv: Receive
 Rep: Replicator
-RN: Rotation Number
 RTT: Round-Trip Time
+RTC: Real-Time Communication
 RTL: Right-to-Left (Arabic TXT)
-Roact: Rodux-Roblox UI Frameworks
-RSS: Rich Site Summary / Receive Side Scaling
+RSPV: Roblox Experience Event Prompt
+RSS: Resident Set Size / Rich Site Summary
 RCC: Remote Chat Channel / Roblox Cloud Compute
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"S" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Snd: Send
-Sec: Seconds
+```
+---
+> # "S" Letter Acronym FastFlags
+---
+```
 SJ: Stream Job
 SM: Static Mesh
-Sim: Simulation
-Stat: Statistics
 SN: Scale Number
-SJT: Stream Job Time
-SBT: Simple Build Tool
-SSL: Secure Sockets Layer
 SK: Skeletal-Skeleton Mesh
+
+Snd: Send
+Sec: Seconds
+Sim: Simulation
+STT: Speech-to-Text
+SJT: Stream Job Time
+SSL: Secure Sockets Layer
+SDF: Signed Distance Field
 Sat: Separating Axis Theorem
 SSR: Screen Space Reflections
 SDK: Software Development Kit
+SFU: Selective Forwarding Unit
+STR: Scene Tree Renderer / String
+
+Stat: Statistics
 SSAA: Supersampling Antialiasing
 Sync: Synchronized-Synchronization
 SIMD: Single Instruction Multiple Data
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"T" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "T" Letter Acronym FastFlags
+---
+```
+Tx: Transmit
+Thou: Thousand-Thousandths
+TN: Translation (Pyhics) Number
+TC: Texture Compression / Team Create / Terms Compliance
+
+TTS: Text-to-Speech
 TCS: Text Chat Service
 TAA: Temporal Anti-Aliasing
 TLS: Transport Layer Security
-Thou: Thousand-Thousandths
-TN: Translation (Pyhics) Number
 TCP: Transmission Control Protocol
-TC: Texture Compression / Team Create / Terms Compliance
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"U" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-Util: Utility
+```
+---
+> # "U" Letter Acronym FastFlags
+---
+```
 UX: User Experience
-US/USec: Microseconds
+US-USec: Microseconds
+UI: Screen UI or User Interface
+UWP: Universal Windows Program
+URL: Uniform Resource Locator
+URE: Unreliable Remote Event
 UDP: User Datagram Protocol
 UGC: User-Generated Content
-URE: Unreliable Remote Event
-UI: Screen UI or User Interface
-URL: Uniform Resource Locator
-UWP: Universal Windows Program
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"V/W" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "V/W" Letter Acronym FastFlags
+---
+```
 VK: Vulkan
 WK: Webkit
-Win: Windows
 WS: Web Socket
 V[Number]: Version
 VR: Virtual Reality
 VM: Virtual Machine
-Var: Variable/Variant
-VAD: Voice Activity Detection
 VRAM: Video Random-Access Memory
+
+Win: Windows
+Var: Variable/Variant
+WMD: Vocaloid Motion Data
+VAD: Voice Activity Detection
 VNG: Vietnamese-VinaGames [Vietnamese Company]
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-"Q/X/Y/Z" Letter Acronym FastFlags
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+```
+---
+> # "J/Q/X/Y/Z" Letter Acronym FastFlags
+---
+```
 Xbox: DirectX Box
 XHR: XMLHttpRequest
+QSG: Qt Scene Graph
+JIT: Just-in-Time (Compilation)
+JDI: Json Delta Interchange
 QoS: Quality of Service
-YUV: Y - Luma U.V - Chroma
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+YUV: Y-Luma U,V-Chroma
 ```
 ---
