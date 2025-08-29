@@ -39,6 +39,16 @@ Fast-Flags Guide
 | *Summary stats*        | `Shift + F5`             | `Fn + Shift + F5`         | None                                          |
 
 ---
+
+# Quick Navigation
+
+> - [**What sites/bot are available for finding Fast-Flags?**](https://github.com/79650/sex?tab=readme-ov-file#what-sitesbot-are-available-for-finding-fast-flags)
+> - [**Fast-Flags Tips-Explanations**](https://github.com/79650/sex?tab=readme-ov-file#fast-flags-tips-explanations)
+> - [**Fast-Flags Bits**](https://github.com/79650/sex?tab=readme-ov-file#fast-flags-bits)
+> - [**Fast-Flags Headers**](https://github.com/79650/sex?tab=readme-ov-file#fast-flags-headers)
+> - [**Fast-Flags Configuration Prefixes**](https://github.com/79650/sex?tab=readme-ov-file#fast-flags-configuration-prefixes)
+> - [**Fast-Flags Acronyms**](https://github.com/79650/sex?tab=readme-ov-file#fast-flags-acronyms)
+---
 <details>
 <summary><h2><strong>FastFlags Documentation</strong></h2></summary>
 
