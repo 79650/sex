@@ -15,7 +15,7 @@ Made by <a href="https://discord.com/users/1254472513199673347">Scroom</a>,<a hr
 
 **In Roblox, the Engine Settings make use of this FastFlag system. It allows Roblox engineers to dynamically modify the game engine without releasing a full update, typically for [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) or controlled feature rollouts. All FastFlags and their behaviors are defined by Roblox engineers, and a large list of them is loaded online when the client starts up.**
 > [!CAUTION]
-> **Using FastFlags should be treated as operating in a kind of “superuser mode.” Superusers have the ability to break things: if you enable the wrong flag, you might cause Roblox Studio or the client to malfunction. In such cases, it wouldn’t usually count as a valid bug report unless you are certain that it’s connected to an upcoming feature and Roblox is unaware of the issue.**
+> **Using FastFlags should be treated as operating in a kind of “superuser mode.” Superusers have the ability to break things: if you enable the wrong flag, you might cause Roblox Studio or the client to malfunction.**
 ---
 # Will using this get me banned?
 **Short answer: No, it won’t. We are 100% sure of it, and even [Roblox Staff have confirmed that fact.](https://devforum.roblox.com/t/welcoming-byfron-to-roblox/2018233/693?u=xtremeguy2256 ) Bootstrappers are not exploit software and have nothing to do with exploiting.**
