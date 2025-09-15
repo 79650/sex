@@ -11,11 +11,9 @@ Made by <a href="https://discord.com/users/1254472513199673347">Scroom</a>,<a hr
                                                                                                                                                                                                                                                                               </div>
 
 # What are Fast-Flags?
-**FastFlags (often shortened as FFlags) are internal toggleable options that control whether certain parts of Roblox’s source code should be executed or not.**
+**FastFlags (also known has FFlags) are a simple method for testing new features in roblox. u can mess around with FastFlags to test new features. It’s also a great way of seeing if a new issue is caused by a newly released feature. This concept exists in many pieces of software. For example, Google Chrome has chrome://flags/, which works in a similar way. Toggling FFlags can be useful for testing highly technical features or enabling very specific settings.**
 
 **In Roblox, the Engine Settings make use of this FastFlag system. It allows Roblox engineers to dynamically modify the game engine without releasing a full update, typically for [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) or controlled feature rollouts. All FastFlags and their behaviors are defined by Roblox engineers, and a large list of them is loaded online when the client starts up.**
-
-**Realistically, FastFlags are only intended for Roblox engineers during local testing. That said, they can sometimes offer useful functionality for example, exposing advanced graphics options where Roblox’s defaults fall short.**
 > [!CAUTION]
 > **Using FastFlags should be treated as operating in a kind of “superuser mode.” Superusers have the ability to break things: if you enable the wrong flag, you might cause Roblox Studio or the client to malfunction. In such cases, it wouldn’t usually count as a valid bug report unless you are certain that it’s connected to an upcoming feature and Roblox is unaware of the issue.**
 ---
