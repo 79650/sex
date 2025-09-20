@@ -316,6 +316,7 @@ LMKD: Low Memory Killer Daemon
 LOD: Level of Detail
 LSC: Lua Script Cache
 LRU: Least Recently Used
+LERP: Linear Interpolation
 LSP: Language Server Protocol
 LMS: Log-Latency Measurement Service
 LDL: Lower Diagonal Transpose [L: lower triangular matrix | D: diagonal matrix | L: transpose of L]
@@ -351,6 +352,7 @@ MSAA: Multisampling Antialiasing
 NS: Native Service / N Seconds
 NLSM: Network Layer Statistics-State Monitor
 NCNN: Neural Network Inference Framework
+NLERP - Normalized Linear Interpolation
 
 Num: Number
 NAT: Network Address Translation
@@ -437,6 +439,7 @@ Stat: Statistics
 SSAA: Supersampling Antialiasing
 Sync: Synchronized-Synchronization
 SIMD: Single Instruction Multiple Data
+SLERP - Spherical Linear Interpolation
 ```
 ---
 > # "T" Letter Acronym FastFlags
