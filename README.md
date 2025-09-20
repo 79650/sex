@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F758749699364094023.gif" alt="arobsite" height="200">
+<img src="https://cdn3.emoji.gg/emojis/19290-blowjobtime.gif" alt="arobsite" height="200">
                                                                                                                                                                                                                                                                                </p>
 <div align="center">
                                                                                                                                                                                                                                                                                <h1>
